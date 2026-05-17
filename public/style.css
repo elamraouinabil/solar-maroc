@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7fa;
+  color: #222;
+}
+
+header {
+  background: linear-gradient(135deg, #ffb300, #ff6f00);
+  color: white;
+  padding: 40px;
+  text-align: center;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 450px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  margin-top: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 18px;
+  background: #ff9800;
+  border: none;
+  color: white;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #f57c00;
+}
+
+#result {
+  margin-top: 20px;
+  padding: 15px;
+  background: #f1f8e9;
+  border-radius: 8px;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+.feature {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}

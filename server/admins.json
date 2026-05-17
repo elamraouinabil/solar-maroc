@@ -1,0 +1,9 @@
+[
+  {
+    "id": 1,
+    "name": "Super Admin",
+    "email": "admin@solar.com",
+    "password": "$2b$10$wJZAi2H4v6M9x8s2v9M4lO2lA6nP0lW4S2JzX7W6sXQ2V5mQj3m7W",
+    "role": "super_admin"
+  }
+]
